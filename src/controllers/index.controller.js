@@ -9,7 +9,12 @@ const mostrarEstado = (req, res) => {
     });
 };
 
+const mostrarAcerca = (req, res) => {
+    res.render('acerca');
+};
+
 module.exports = {
     mostrarInicio,
-    mostrarEstado
+    mostrarEstado,
+    mostrarAcerca
 };

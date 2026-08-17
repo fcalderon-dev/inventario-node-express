@@ -8,7 +8,8 @@ const app = express();
 
 app.engine('hbs', engine({
     extname: '.hbs',
-    defaultLayout: false
+    defaultLayout: false,
+    partialsDir: './views/partials'
 }));
 
 app.set('view engine', 'hbs');

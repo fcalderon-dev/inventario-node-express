@@ -8,15 +8,21 @@
 </head>
 
 <body>
-    <h1>Productos</h1>
 
-    {{#each productos}}
-        <div>
-            <h2>{{nombre}}</h2>
-            <p>Categoría: {{categoria}}</p>
-            <p>Stock: {{stock}}</p>
-            <p>Precio: ${{precio}}</p>
-        </div>
-    {{/each}}
+    {{> header}}
+
+    <main>
+        <h2>Productos</h2>
+
+        {{#each productos}}
+            <div>
+                <h3>{{nombre}}</h3>
+                <p>Categoría: {{categoria}}</p>
+                <p>Stock: {{stock}}</p>
+                <p>Precio: ${{precio}}</p>
+            </div>
+        {{/each}}
+    </main>
+
 </body>
 </html>
