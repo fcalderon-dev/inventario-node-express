@@ -1,9 +1,12 @@
+require('dotenv').config();
+
 const express = require('express');
 const indexRoutes = require('./routes/index.routes');
 const productosRoutes = require('./routes/productos.routes');
 const { engine } = require('express-handlebars');
 const accessLogger = require('./middlewares/accessLogger');
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 
 app.engine('hbs', engine({
@@ -14,7 +17,7 @@ app.engine('hbs', engine({
 
 app.set('view engine', 'hbs');
 app.set('views', './views');
-const PORT = 3000;
+
 
 app.use(accessLogger);
 
