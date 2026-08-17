@@ -1,0 +1,26 @@
+{
+  "name": "inventario-node-express",
+  "version": "1.0.0",
+  "description": "Aplicación web para gestión de inventario Node.js y Express",
+  "keywords": [
+    "node",
+    "express",
+    "inventario"
+  ],
+  "license": "ISC",
+  "author": "Fernando Calderón",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

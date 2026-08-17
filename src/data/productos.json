@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Paracetamol 500 mg",
+    "categoria": "Medicamentos",
+    "stock": 25,
+    "precio": 1990,
+    "activo": true
+  },
+  {
+    "id": 2,
+    "nombre": "Protector Solar SPF 50",
+    "categoria": "Dermocosmetica",
+    "stock": 12,
+    "precio": 12990,
+    "activo": true
+  },
+  {
+    "id": 3,
+    "nombre": "Vitamina B12",
+    "categoria": "Vitaminas",
+    "stock": 8,
+    "precio": 5990,
+    "activo": true
+  }
+]

@@ -1,0 +1,5 @@
+17/8/2026, 9:44:26 a.m. - GET /status
+17/8/2026, 9:44:53 a.m. - GET /productos
+17/8/2026, 9:44:53 a.m. - GET /css/styles.css
+17/8/2026, 9:44:58 a.m. - GET /
+17/8/2026, 9:44:58 a.m. - GET /css/styles.css
